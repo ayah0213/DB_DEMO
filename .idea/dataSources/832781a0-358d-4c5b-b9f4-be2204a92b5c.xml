@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="HR">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.20">
+    <root id="1">
+      <ServerVersion>11.2.0.2.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-10.15:16:59</ModifiedTimestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <IntrospectionTimestamp>2021-03-10.16:17:44</IntrospectionTimestamp>
+      <CommentsHash>1809116939607</CommentsHash>
+      <Current>1</Current>
+    </schema>
+    <schema id="8" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ORDS_METADATA">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="SP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <user id="18" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </user>
+    <user id="19" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </user>
+    <user id="20" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </user>
+    <user id="21" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </user>
+    <user id="22" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </user>
+    <user id="23" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </user>
+    <user id="24" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </user>
+    <user id="25" parent="1" name="ORDS_METADATA">
+      <ObjectId>48</ObjectId>
+    </user>
+    <user id="26" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>49</ObjectId>
+    </user>
+    <user id="27" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </user>
+    <user id="28" parent="1" name="SP">
+      <ObjectId>54</ObjectId>
+    </user>
+    <user id="29" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </user>
+    <user id="30" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </user>
+    <user id="31" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </user>
+    <user id="32" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <sequence id="33" parent="7" name="DEPARTMENTS_SEQ">
+      <ObjectId>16400</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <SequenceIdentity>1+10..9990</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="34" parent="7" name="EMPLOYEES_SEQ">
+      <ObjectId>16406</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="35" parent="7" name="LOCATIONS_SEQ">
+      <ObjectId>16397</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <SequenceIdentity>1+100..9900</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="36" parent="7" name="SPARTAN_SEQ">
+      <ObjectId>22644</ObjectId>
+      <CreatedTimestamp>2019-09-06.05:49:44</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-06.05:49:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="37" parent="7" name="ADRESS">
+      <ObjectId>24745</ObjectId>
+      <CreatedTimestamp>2021-03-06.10:15:58</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:15:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="7" name="CLASSMATE">
+      <ObjectId>24753</ObjectId>
+      <CreatedTimestamp>2021-03-06.11:43:13</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.11:43:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="39" parent="7" name="CORWORKERS">
+      <ObjectId>24755</ObjectId>
+      <CreatedTimestamp>2021-03-06.11:48:37</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.11:48:37</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="40" parent="7" name="COUNTRIES">
+      <ObjectId>16393</ObjectId>
+      <Comment>country table. Contains 25 rows. References with locations table.</Comment>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+      <Organization>I</Organization>
+    </table>
+    <table id="41" parent="7" name="CUSTOMER">
+      <ObjectId>24747</ObjectId>
+      <CreatedTimestamp>2021-03-06.10:34:53</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:34:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="7" name="CYBERTEKB15">
+      <ObjectId>23703</ObjectId>
+      <CreatedTimestamp>2020-05-12.12:11:15</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-12.12:11:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="7" name="DEPARTMENTS">
+      <ObjectId>16398</ObjectId>
+      <Comment>Departments table that shows details of departments where employees
+work. Contains 27 rows; references with locations, employees, and job_history tables.</Comment>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="7" name="EMPLOYEES">
+      <ObjectId>16403</ObjectId>
+      <Comment>employees table. Contains 107 rows. References with departments,
+jobs, job_history tables. Contains a self reference.</Comment>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="7" name="FIRST_TABLE">
+      <ObjectId>24945</ObjectId>
+      <CreatedTimestamp>2021-03-09.12:44:21</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-09.12:44:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="7" name="JOBS">
+      <ObjectId>16401</ObjectId>
+      <Comment>jobs table with job titles and salary ranges. Contains 19 rows.
+References with employees and job_history table.</Comment>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="7" name="JOB_HISTORY">
+      <ObjectId>16407</ObjectId>
+      <Comment>Table that stores job history of the employees. If an employee
+changes departments within the job or changes jobs within the department,
+new rows get inserted into this table with old job information of the
+employee. Contains a complex primary key: employee_id+start_date.
+Contains 25 rows. References with jobs, employees, and departments tables.</Comment>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="7" name="LOCATIONS">
+      <ObjectId>16395</ObjectId>
+      <Comment>Locations table that contains specific address of a specific office,
+warehouse, and/or production site of a company. Does not store addresses /
+locations of customers. Contains 23 rows; references with the
+departments and countries tables. </Comment>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="7" name="MOVIES">
+      <ObjectId>25108</ObjectId>
+      <CreatedTimestamp>2021-03-10.15:16:59</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-10.15:16:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="7" name="PERSONS">
+      <ObjectId>23717</ObjectId>
+      <CreatedTimestamp>2020-12-16.18:12:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-16.18:12:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="51" parent="7" name="REGIONS">
+      <ObjectId>16391</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="52" parent="7" name="SECOND_TABLE">
+      <ObjectId>24944</ObjectId>
+      <CreatedTimestamp>2021-03-09.12:43:21</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-09.12:43:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="53" parent="7" name="STUDENT">
+      <ObjectId>24751</ObjectId>
+      <CreatedTimestamp>2021-03-06.10:58:47</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:58:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="7" name="TEACHERS">
+      <ObjectId>24749</ObjectId>
+      <CreatedTimestamp>2021-03-06.10:53:13</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:53:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="55" parent="7" name="DEPARTMENTS_VIEW">
+      <ObjectId>23716</ObjectId>
+      <SourceTextLength>53</SourceTextLength>
+      <DependsOnIds>16398</DependsOnIds>
+      <CreatedTimestamp>2020-12-16.18:03:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-16.18:03:03</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="56" parent="7" name="EMP_DETAILS_VIEW">
+      <ObjectId>16409</ObjectId>
+      <SourceTextLength>538</SourceTextLength>
+      <DependsOnIds>16391,16393,16395,16398,16401,16403</DependsOnIds>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+    </view>
+    <routine id="57" parent="7" name="ADD_JOB_HISTORY">
+      <ObjectId>16423</ObjectId>
+      <DependsOnIds>-9223372036854775808,16407</DependsOnIds>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <SourceTextLength>500</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="58" parent="7" name="SECURE_DML">
+      <ObjectId>16421</ObjectId>
+      <DependsOnIds>-9223372036854775808</DependsOnIds>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <SourceTextLength>272</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="59" parent="37" name="ADRESS_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="37" name="ADDRESS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="37" name="PHONE_NUMBER">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="62" parent="37" name="SYS_C007749">
+      <ObjectId>24746</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-03-06.10:15:58</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:15:58</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ADRESS_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="63" parent="37" name="SYS_C007749">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.10:15:58</ModifiedTimestamp>
+      <ColNames>ADRESS_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007749</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="64" parent="38" name="STUDENT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="38" name="First_name">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="66" parent="38" name="last_name">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <index id="67" parent="38" name="SYS_C007758">
+      <ObjectId>24754</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-03-06.11:43:13</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.11:43:13</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="38" name="SYS_C007758">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.11:43:13</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007758</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="39" name="EMPLOYEES_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="39" name="First_name">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+    </column>
+    <column id="71" parent="39" name="last_name">
+      <Position>3</Position>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+    </column>
+    <column id="72" parent="39" name="PERSONAL_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="73" parent="39" name="SYS_C007759">
+      <ObjectId>24756</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-03-06.11:48:37</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.11:48:37</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPLOYEES_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="39" name="SYS_C007759">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.11:48:37</ModifiedTimestamp>
+      <ColNames>EMPLOYEES_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007759</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="75" parent="39" name="SYS_C007760">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.11:48:37</ModifiedTimestamp>
+      <ColNames>PERSONAL_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>CLASSMATE</RefTableName>
+      <RefKeyName>SYS_C007758</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="76" parent="40" name="COUNTRY_ID">
+      <Position>1</Position>
+      <Comment>Primary key of countries table.</Comment>
+      <DataType>CHAR(2 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="40" name="COUNTRY_NAME">
+      <Position>2</Position>
+      <Comment>Country name</Comment>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+    </column>
+    <column id="78" parent="40" name="REGION_ID">
+      <Position>3</Position>
+      <Comment>Region ID for the country. Foreign key to region_id column in the departments table.</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="79" parent="40" name="COUNTRY_C_ID_PK">
+      <ObjectId>16394</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COUNTRY_ID</ColNames>
+      <Unique>1</Unique>
+      <Clustering>1</Clustering>
+    </index>
+    <key id="80" parent="40" name="COUNTRY_C_ID_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>COUNTRY_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>COUNTRY_C_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="81" parent="40" name="COUNTR_REG_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>REGION_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>REGIONS</RefTableName>
+      <RefKeyName>REG_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="82" parent="40" name="COUNTRY_ID_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>COUNTRY_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;COUNTRY_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="83" parent="41" name="CUSTOMER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="41" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="41" name="ADRESS_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="86" parent="41" name="SYS_C007751">
+      <ObjectId>24748</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-03-06.10:34:53</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:34:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="41" name="SYS_C007751">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.10:34:53</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007751</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="88" parent="41" name="SYS_C007752">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.10:34:53</ModifiedTimestamp>
+      <ColNames>ADRESS_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>ADRESS</RefTableName>
+      <RefKeyName>SYS_C007749</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="89" parent="42" name="STUDENT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="42" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="42" name="LAST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(60 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="42" name="START_DATE">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(1)|0s</DataType>
+    </column>
+    <column id="93" parent="42" name="GENDER">
+      <Position>5</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+    </column>
+    <index id="94" parent="42" name="SYS_C007656">
+      <ObjectId>23704</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-05-12.12:11:15</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-12.12:11:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="95" parent="42" name="SYS_C007656">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-05-12.12:11:15</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007656</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="96" parent="43" name="DEPARTMENT_ID">
+      <Position>1</Position>
+      <Comment>Primary key column of departments table.</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="43" name="DEPARTMENT_NAME">
+      <Position>2</Position>
+      <Comment>A not null column that shows name of a department. Administration,
+Marketing, Purchasing, Human Resources, Shipping, IT, Executive, Public
+Relations, Sales, Finance, and Accounting. </Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="43" name="MANAGER_ID">
+      <Position>3</Position>
+      <Comment>Manager_id of a department. Foreign key to employee_id column of employees table. The manager_id column of the employee table references this column.</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+    </column>
+    <column id="99" parent="43" name="LOCATION_ID">
+      <Position>4</Position>
+      <Comment>Location id where a department is located. Foreign key to location_id column of locations table.</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <index id="100" parent="43" name="DEPT_ID_PK">
+      <ObjectId>16399</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPARTMENT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="101" parent="43" name="DEPT_LOCATION_IX">
+      <ObjectId>16414</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LOCATION_ID</ColNames>
+    </index>
+    <key id="102" parent="43" name="DEPT_ID_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>DEPARTMENT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEPT_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="103" parent="43" name="DEPT_MGR_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <ColNames>MANAGER_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>EMPLOYEES</RefTableName>
+      <RefKeyName>EMP_EMP_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="104" parent="43" name="DEPT_LOC_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>LOCATION_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>LOCATIONS</RefTableName>
+      <RefKeyName>LOC_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="105" parent="43" name="DEPT_NAME_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>DEPARTMENT_NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;DEPARTMENT_NAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="106" parent="44" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <Comment>Primary key of employees table.</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="44" name="FIRST_NAME">
+      <Position>2</Position>
+      <Comment>First name of the employee. A not null column.</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="108" parent="44" name="LAST_NAME">
+      <Position>3</Position>
+      <Comment>Last name of the employee. A not null column.</Comment>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="44" name="EMAIL">
+      <Position>4</Position>
+      <Comment>Email id of the employee</Comment>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="44" name="PHONE_NUMBER">
+      <Position>5</Position>
+      <Comment>Phone number of the employee; includes country code and area code</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="111" parent="44" name="HIRE_DATE">
+      <Position>6</Position>
+      <Comment>Date when the employee started on this job. A not null column.</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="44" name="JOB_ID">
+      <Position>7</Position>
+      <Comment>Current job of the employee; foreign key to job_id column of the
+jobs table. A not null column.</Comment>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="44" name="SALARY">
+      <Position>8</Position>
+      <Comment>Monthly salary of the employee. Must be greater
+than zero (enforced by constraint emp_salary_min)</Comment>
+      <DataType>NUMBER(8,2 digit)|0s</DataType>
+    </column>
+    <column id="114" parent="44" name="COMMISSION_PCT">
+      <Position>9</Position>
+      <Comment>Commission percentage of the employee; Only employees in sales
+department elgible for commission percentage</Comment>
+      <DataType>NUMBER(2,2 digit)|0s</DataType>
+    </column>
+    <column id="115" parent="44" name="MANAGER_ID">
+      <Position>10</Position>
+      <Comment>Manager id of the employee; has same domain as manager_id in
+departments table. Foreign key to employee_id column of employees table.
+(useful for reflexive joins and CONNECT BY query)</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+    </column>
+    <column id="116" parent="44" name="DEPARTMENT_ID">
+      <Position>11</Position>
+      <Comment>Department id where employee works; foreign key to department_id
+column of the departments table</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <index id="117" parent="44" name="EMP_EMP_ID_PK">
+      <ObjectId>16405</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="118" parent="44" name="EMP_EMAIL_UK">
+      <ObjectId>16404</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMAIL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="119" parent="44" name="EMP_NAME_IX">
+      <ObjectId>16413</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LAST_NAME
+FIRST_NAME</ColNames>
+    </index>
+    <index id="120" parent="44" name="EMP_JOB_IX">
+      <ObjectId>16411</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>JOB_ID</ColNames>
+    </index>
+    <index id="121" parent="44" name="EMP_MANAGER_IX">
+      <ObjectId>16412</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MANAGER_ID</ColNames>
+    </index>
+    <index id="122" parent="44" name="EMP_DEPARTMENT_IX">
+      <ObjectId>16410</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPARTMENT_ID</ColNames>
+    </index>
+    <key id="123" parent="44" name="EMP_EMP_ID_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMP_EMP_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="124" parent="44" name="EMP_EMAIL_UK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>EMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMP_EMAIL_UK</UnderlyingIndexName>
+    </key>
+    <foreign-key id="125" parent="44" name="EMP_JOB_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>JOBS</RefTableName>
+      <RefKeyName>JOB_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="126" parent="44" name="EMP_MANAGER_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>MANAGER_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>EMPLOYEES</RefTableName>
+      <RefKeyName>EMP_EMP_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="127" parent="44" name="EMP_DEPT_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>DEPARTMENT_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>DEPARTMENTS</RefTableName>
+      <RefKeyName>DEPT_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="128" parent="44" name="EMP_EMAIL_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>EMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;EMAIL&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="129" parent="44" name="EMP_HIRE_DATE_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>HIRE_DATE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;HIRE_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="130" parent="44" name="EMP_JOB_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;JOB_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="131" parent="44" name="EMP_LAST_NAME_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>LAST_NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;LAST_NAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="132" parent="44" name="EMP_SALARY_MIN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>SALARY</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>salary &gt; 0</Predicate>
+    </check>
+    <trigger id="133" parent="44" name="SECURE_EMPLOYEES">
+      <ObjectId>16422</ObjectId>
+      <SourceTextLength>41</SourceTextLength>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <Events>IUD</Events>
+      <Turn>before-stmt</Turn>
+    </trigger>
+    <trigger id="134" parent="44" name="UPDATE_JOB_HISTORY">
+      <ObjectId>16424</ObjectId>
+      <SourceTextLength>123</SourceTextLength>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-row</Turn>
+      <ColNames>JOB_ID
+DEPARTMENT_ID</ColNames>
+    </trigger>
+    <column id="135" parent="45" name="FIRST_NAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="136" parent="45" name="SALARY">
+      <Position>2</Position>
+      <DataType>NUMBER(8,2 digit)|0s</DataType>
+    </column>
+    <column id="137" parent="46" name="JOB_ID">
+      <Position>1</Position>
+      <Comment>Primary key of jobs table.</Comment>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="46" name="JOB_TITLE">
+      <Position>2</Position>
+      <Comment>A not null column that shows job title, e.g. AD_VP, FI_ACCOUNTANT</Comment>
+      <DataType>VARCHAR2(35 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="46" name="MIN_SALARY">
+      <Position>3</Position>
+      <Comment>Minimum salary for a job title.</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+    </column>
+    <column id="140" parent="46" name="MAX_SALARY">
+      <Position>4</Position>
+      <Comment>Maximum salary for a job title</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+    </column>
+    <index id="141" parent="46" name="JOB_ID_PK">
+      <ObjectId>16402</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>JOB_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="142" parent="46" name="JOB_ID_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JOB_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="143" parent="46" name="JOB_TITLE_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>JOB_TITLE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;JOB_TITLE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="144" parent="47" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <Comment>A not null column in the complex primary key employee_id+start_date.
+Foreign key to employee_id column of the employee table</Comment>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="47" name="START_DATE">
+      <Position>2</Position>
+      <Comment>A not null column in the complex primary key employee_id+start_date.
+Must be less than the end_date of the job_history table. (enforced by
+constraint jhist_date_interval)</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="47" name="END_DATE">
+      <Position>3</Position>
+      <Comment>Last day of the employee in this job role. A not null column. Must be
+greater than the start_date of the job_history table.
+(enforced by constraint jhist_date_interval)</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="147" parent="47" name="JOB_ID">
+      <Position>4</Position>
+      <Comment>Job role in which the employee worked in the past; foreign key to
+job_id column in the jobs table. A not null column.</Comment>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="47" name="DEPARTMENT_ID">
+      <Position>5</Position>
+      <Comment>Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <index id="149" parent="47" name="JHIST_EMP_ID_ST_DATE_PK">
+      <ObjectId>16408</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPLOYEE_ID
+START_DATE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="150" parent="47" name="JHIST_EMPLOYEE_IX">
+      <ObjectId>16416</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPLOYEE_ID</ColNames>
+    </index>
+    <index id="151" parent="47" name="JHIST_JOB_IX">
+      <ObjectId>16415</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>JOB_ID</ColNames>
+    </index>
+    <index id="152" parent="47" name="JHIST_DEPARTMENT_IX">
+      <ObjectId>16417</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPARTMENT_ID</ColNames>
+    </index>
+    <key id="153" parent="47" name="JHIST_EMP_ID_ST_DATE_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID
+START_DATE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JHIST_EMP_ID_ST_DATE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="154" parent="47" name="JHIST_EMP_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>EMPLOYEES</RefTableName>
+      <RefKeyName>EMP_EMP_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="155" parent="47" name="JHIST_JOB_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>JOBS</RefTableName>
+      <RefKeyName>JOB_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="156" parent="47" name="JHIST_DEPT_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>DEPARTMENT_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>DEPARTMENTS</RefTableName>
+      <RefKeyName>DEPT_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="157" parent="47" name="JHIST_EMPLOYEE_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;EMPLOYEE_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="158" parent="47" name="JHIST_END_DATE_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>END_DATE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;END_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="159" parent="47" name="JHIST_JOB_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>JOB_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;JOB_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="160" parent="47" name="JHIST_START_DATE_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>START_DATE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;START_DATE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="161" parent="47" name="JHIST_DATE_INTERVAL">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>END_DATE
+START_DATE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>end_date &gt; start_date</Predicate>
+    </check>
+    <column id="162" parent="48" name="LOCATION_ID">
+      <Position>1</Position>
+      <Comment>Primary key of locations table</Comment>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="163" parent="48" name="STREET_ADDRESS">
+      <Position>2</Position>
+      <Comment>Street address of an office, warehouse, or production site of a company.
+Contains building number and street name</Comment>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+    </column>
+    <column id="164" parent="48" name="POSTAL_CODE">
+      <Position>3</Position>
+      <Comment>Postal code of the location of an office, warehouse, or production site
+of a company. </Comment>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+    </column>
+    <column id="165" parent="48" name="CITY">
+      <Position>4</Position>
+      <Comment>A not null column that shows city where an office, warehouse, or
+production site of a company is located. </Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="48" name="STATE_PROVINCE">
+      <Position>5</Position>
+      <Comment>State or Province where an office, warehouse, or production site of a
+company is located.</Comment>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+    </column>
+    <column id="167" parent="48" name="COUNTRY_ID">
+      <Position>6</Position>
+      <Comment>Country where an office, warehouse, or production site of a company is
+located. Foreign key to country_id column of the countries table.</Comment>
+      <DataType>CHAR(2 byte)|0s</DataType>
+    </column>
+    <index id="168" parent="48" name="LOC_ID_PK">
+      <ObjectId>16396</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LOCATION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="169" parent="48" name="LOC_CITY_IX">
+      <ObjectId>16418</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CITY</ColNames>
+    </index>
+    <index id="170" parent="48" name="LOC_STATE_PROVINCE_IX">
+      <ObjectId>16419</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STATE_PROVINCE</ColNames>
+    </index>
+    <index id="171" parent="48" name="LOC_COUNTRY_IX">
+      <ObjectId>16420</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:21</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COUNTRY_ID</ColNames>
+    </index>
+    <key id="172" parent="48" name="LOC_ID_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>LOCATION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LOC_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="173" parent="48" name="LOC_C_ID_FK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>COUNTRY_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>COUNTRIES</RefTableName>
+      <RefKeyName>COUNTRY_C_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="174" parent="48" name="LOC_CITY_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>CITY</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;CITY&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="175" parent="49" name="MOVIE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="49" name="MOVIE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="177" parent="49" name="RATINGS">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="178" parent="49" name="DESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <index id="179" parent="49" name="MOVIES_PK">
+      <ObjectId>25109</ObjectId>
+      <CreatedTimestamp>2021-03-10.15:16:59</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-10.15:16:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MOVIE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="180" parent="49" name="MOVIES_PK">
+      <ModifiedTimestamp>2021-03-10.15:16:59</ModifiedTimestamp>
+      <ColNames>MOVIE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MOVIES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="181" parent="50" name="PERSONID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="182" parent="50" name="LASTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="183" parent="50" name="FIRSTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <column id="184" parent="50" name="AGE">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="185" parent="50" name="SYS_C007661">
+      <ObjectId>23718</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-12-16.18:12:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-16.18:12:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PERSONID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="186" parent="50" name="SYS_C007661">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-12-16.18:12:41</ModifiedTimestamp>
+      <ColNames>PERSONID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007661</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="187" parent="51" name="REGION_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="51" name="REGION_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+    </column>
+    <index id="189" parent="51" name="REG_ID_PK">
+      <ObjectId>16392</ObjectId>
+      <CreatedTimestamp>2011-08-27.04:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>REGION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="190" parent="51" name="REG_ID_PK">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>REGION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>REG_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="191" parent="51" name="REGION_ID_NN">
+      <ModifiedTimestamp>2011-08-27.04:55:20</ModifiedTimestamp>
+      <ColNames>REGION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>&quot;REGION_ID&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="192" parent="52" name="FIRST_NAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="193" parent="52" name="SALARY">
+      <Position>2</Position>
+      <DataType>NUMBER(8,2 digit)|0s</DataType>
+    </column>
+    <column id="194" parent="53" name="STUDENT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="195" parent="53" name="STUDENT_NAMES">
+      <Position>2</Position>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="53" name="ADRESS_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="197" parent="53" name="SYS_C007756">
+      <ObjectId>24752</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-03-06.10:58:47</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:58:47</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="198" parent="53" name="SYS_C007756">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.10:58:47</ModifiedTimestamp>
+      <ColNames>STUDENT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007756</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="199" parent="53" name="SYS_C007757">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.10:58:47</ModifiedTimestamp>
+      <ColNames>ADRESS_ID</ColNames>
+      <RefSchemaName>HR</RefSchemaName>
+      <RefTableName>ADRESS</RefTableName>
+      <RefKeyName>SYS_C007749</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="200" parent="54" name="TEACHER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="201" parent="54" name="TEACHER_ADRESS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="54" name="TEACHER_PHONE">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="203" parent="54" name="SYS_C007754">
+      <ObjectId>24750</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-03-06.10:53:13</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-06.10:53:13</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TEACHER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="204" parent="54" name="SYS_C007754">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-03-06.10:53:13</ModifiedTimestamp>
+      <ColNames>TEACHER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007754</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="205" parent="55" name="DEPARTMENT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="206" parent="55" name="DEPARTMENT_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="207" parent="56" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="208" parent="56" name="JOB_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="209" parent="56" name="MANAGER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+    </column>
+    <column id="210" parent="56" name="DEPARTMENT_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="211" parent="56" name="LOCATION_ID">
+      <Position>5</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="212" parent="56" name="COUNTRY_ID">
+      <Position>6</Position>
+      <DataType>CHAR(2 byte)|0s</DataType>
+    </column>
+    <column id="213" parent="56" name="FIRST_NAME">
+      <Position>7</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="214" parent="56" name="LAST_NAME">
+      <Position>8</Position>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="215" parent="56" name="SALARY">
+      <Position>9</Position>
+      <DataType>NUMBER(8,2 digit)|0s</DataType>
+    </column>
+    <column id="216" parent="56" name="COMMISSION_PCT">
+      <Position>10</Position>
+      <DataType>NUMBER(2,2 digit)|0s</DataType>
+    </column>
+    <column id="217" parent="56" name="DEPARTMENT_NAME">
+      <Position>11</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="218" parent="56" name="JOB_TITLE">
+      <Position>12</Position>
+      <DataType>VARCHAR2(35 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="219" parent="56" name="CITY">
+      <Position>13</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="220" parent="56" name="STATE_PROVINCE">
+      <Position>14</Position>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+    </column>
+    <column id="221" parent="56" name="COUNTRY_NAME">
+      <Position>15</Position>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+    </column>
+    <column id="222" parent="56" name="REGION_NAME">
+      <Position>16</Position>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+    </column>
+    <argument id="223" parent="57" name="P_EMP_ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="224" parent="57" name="P_START_DATE">
+      <Position>2</Position>
+      <DataType>DATE|0s</DataType>
+    </argument>
+    <argument id="225" parent="57" name="P_END_DATE">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+    </argument>
+    <argument id="226" parent="57" name="P_JOB_ID">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="227" parent="57" name="P_DEPARTMENT_ID">
+      <Position>5</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
